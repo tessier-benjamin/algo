@@ -1,0 +1,11 @@
+Fun bool Double(nombre tab[])
+    Int i = 2 * (longu(tab) * (longu(tab) -1) / 2)
+    Int test = 0 ;
+    Int count = 1 ;
+    Pour 0 à i :
+        Si tab[test] == tab[count] :
+            Return True
+        Si count == longu(tab) : 
+            count = 1 
+            test = test +1
+    return false
