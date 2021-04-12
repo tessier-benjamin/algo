@@ -1,0 +1,7 @@
+Fun bool Double(nombre tab[])
+TabTest [] = tab[]
+    Pour I de 0 à longu(tab) :
+        Pour j de 0 à longu(TabTest) :
+            Si tab[i] == TabTest [j] :
+                Return True
+    return false
